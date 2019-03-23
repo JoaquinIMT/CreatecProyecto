@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "123750577893",
+    "firebase_url": "https://createchproject-e1ad0.firebaseio.com",
+    "project_id": "createchproject-e1ad0",
+    "storage_bucket": "createchproject-e1ad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123750577893:android:cf59dedd46aeca66",
+        "android_client_info": {
+          "package_name": "com.example.createc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123750577893-kd8hg5su09c484d03m5nkhaott8o8vu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.createc",
+            "certificate_hash": "a2c72351d6e817aa128072f44bc106d213cfe2c0"
+          }
+        },
+        {
+          "client_id": "123750577893-dsf1i6id8djuj1vq9h6mbv2b6mpchsa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDuUg61D0UZSm38gVuVZNmQFW2ewnrwbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123750577893-dsf1i6id8djuj1vq9h6mbv2b6mpchsa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

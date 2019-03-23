@@ -15,4 +15,12 @@
             android:layout_marginBottom="312dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginTop="371dp" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/pruebaTEXT" android:layout_marginTop="18dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="28dp" app:layout_constraintBottom_toTopOf="@+id/escanear_button"/>
 </android.support.constraint.ConstraintLayout>
