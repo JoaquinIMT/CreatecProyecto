@@ -20,29 +20,37 @@ import android.widget.Toast
 import com.google.firebase.FirebaseApp
 import com.google.firebase.ml.vision.FirebaseVision
 import com.google.firebase.ml.vision.common.FirebaseVisionImage
-import com.google.firebase.ml.vision.text.FirebaseVisionCloudTextRecognizerOptions
-import kotlinx.android.synthetic.main.activity_main.*
-import org.w3c.dom.Text
 import java.io.IOException
-import java.util.*
+
 
 class MainActivity : AppCompatActivity() {
-val CAMERA_REQUEST_CODE = 1001
-val IMAGE_CAPTURE_CODE = 1002
-var image_rui : Uri? = null
-lateinit var textPro: TextView
+    val CAMERA_REQUEST_CODE = 1001
+    val IMAGE_CAPTURE_CODE = 1002
+    var image_rui : Uri? = null
+    var paragraphComplete: String = ""
+
+    lateinit var textPro: TextView
+    lateinit var scanImage: Button
+    lateinit var usuarioActivity: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         FirebaseApp.initializeApp(this)
-        val scanImage = findViewById<Button>(R.id.escanear_button)
-        textPro = findViewById<TextView>(R.id.pruebaTEXT)
+        scanImage = findViewById(R.id.escanear_button)
+        textPro = findViewById(R.id.bigText)
+        usuarioActivity = findViewById(R.id.next)
+
 
         scanImage.setOnClickListener {
             cameraPermissionRequest()
 
+        }
+
+        usuarioActivity.setOnClickListener {
+            val intent = Intent(applicationContext,ClienteDatos::class.java)
+            startActivity(intent)
         }
     }
 
@@ -74,7 +82,7 @@ lateinit var textPro: TextView
         valores.put(MediaStore.Images.Media.DESCRIPTION, "From the Camera")
 
         image_rui = contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, valores)
-
+        paragraphComplete = ""
         val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, image_rui)
         startActivityForResult(cameraIntent, IMAGE_CAPTURE_CODE)
@@ -100,24 +108,20 @@ lateinit var textPro: TextView
         if (resultCode == Activity.RESULT_OK){
             //Toast.makeText(this,"Si entro y definio la variable",Toast.LENGTH_SHORT).show()
             var image: FirebaseVisionImage? = null
+
             try {
                 image = FirebaseVisionImage.fromFilePath(applicationContext,image_rui!!)
-                Toast.makeText(this,image_rui.toString(),Toast.LENGTH_SHORT).show()
             } catch (e: IOException) {
                 e.printStackTrace()
             }
+
+
             val detector = FirebaseVision.getInstance().cloudDocumentTextRecognizer
-            val result = detector.processImage(image!!)
-                .addOnSuccessListener { firebaseVisionText ->
-                    // Task completed successfully
-                    // ...
-                    for (block in firebaseVisionText.blocks) {
-                        val boundingBox = block.boundingBox
-                        val text = block.text
-                        textPro.text= text
 
-                    }
 
+           detector.processImage(image!!)
+                .addOnSuccessListener {
+                    acumuladorTexto(it.text)
                 }
 
                 .addOnFailureListener {
@@ -127,5 +131,9 @@ lateinit var textPro: TextView
 
 
         }
+    }
+    fun acumuladorTexto(text:String=""){
+        paragraphComplete += text
+        textPro.text=paragraphComplete
     }
 }
