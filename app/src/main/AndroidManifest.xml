@@ -18,11 +18,14 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        
         <activity
                 android:name=".InformacionConsumo"
                 android:label="Información de Consumo">
         </activity>
 
+        <activity android:name=".sse">
+        </activity>
         <activity
                 android:name=".ClienteDatos"
                 android:label="Datos de Cliente">
