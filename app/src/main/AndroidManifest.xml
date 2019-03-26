@@ -18,9 +18,11 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ClienteDatos"
-        android:label="Datos de Cliente"
-        >
+        <activity android:name=".sse">
+        </activity>
+        <activity
+                android:name=".ClienteDatos"
+                android:label="Datos de Cliente">
         </activity>
         <activity
                 android:name=".MainActivity"
