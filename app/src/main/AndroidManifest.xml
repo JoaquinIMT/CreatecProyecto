@@ -18,19 +18,20 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".sse2">
+        <activity android:name=".propuestas">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".sse2">
         </activity>
         <activity
                 android:name=".InformacionConsumo"
                 android:label="Información de Consumo">
         </activity>
         <activity android:name=".sse">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
 
         </activity>
         <activity
@@ -40,7 +41,6 @@
         <activity
                 android:name=".MainActivity"
                 android:label="Escaner de recibos">
-
         </activity>
 
         <meta-data
