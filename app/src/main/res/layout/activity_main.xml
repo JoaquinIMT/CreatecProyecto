@@ -10,11 +10,9 @@
             android:text="Escanear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/escanear_button" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:id="@+id/escanear_button" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="50dp"
             android:layout_marginBottom="312dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginTop="371dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.0"/>
+            android:visibility="gone"/>
     <TextView
             android:text="TextView"
             android:layout_width="0dp"
@@ -30,4 +28,32 @@
             android:id="@+id/next" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp" app:srcCompat="@drawable/ic_monetization_green"
+            android:id="@+id/ticket_image" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/next" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/picture"/>
+    <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ic_camara_negro"
+            android:id="@+id/picture"
+            app:layout_constraintEnd_toStartOf="@+id/escanear_button" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="312dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:visibility="gone"
+            app:layout_constraintHorizontal_bias="0.504" app:layout_constraintVertical_bias="0.127"/>
+
+
 </android.support.constraint.ConstraintLayout>
