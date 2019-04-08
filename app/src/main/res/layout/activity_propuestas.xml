@@ -6,400 +6,840 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".propuestas" android:background="@android:color/white" android:textAlignment="center">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-            android:text="$2,448.95 MXN"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView84"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="440dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
-    <TextView
-            android:text="14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView83"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="600dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
-    <TextView
-            android:text="25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView82"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="560dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
-    <TextView
-            android:text="35"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView81"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="520dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
-    <TextView
-            android:text="46"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView80"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="480dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
-    <TextView
-            android:text="60"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView79"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="440dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent"/>
-    <TextView
-            android:text="206"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView78"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="600dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
-    <TextView
-            android:text="360"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView77"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="560dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
-    <TextView
-            android:text="515"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView76"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="520dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
-    <TextView
-            android:text="669"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView75"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="480dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
-    <TextView
-            android:text="874"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView74"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="440dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
-    <TextView
-            android:text="Ahorro promedio"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView73" android:textColor="@android:color/black"
-            android:layout_marginTop="390dp" app:layout_constraintTop_toTopOf="parent" android:textAlignment="center"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="2dp"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.975"/>
-    <TextView
-            android:text="area m³"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView72" android:textColor="@android:color/black"
-            android:layout_marginTop="390dp" app:layout_constraintTop_toTopOf="parent" android:textAlignment="center"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent"/>
-    <TextView
-            android:text="Produccion mensual"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView71" android:textColor="@android:color/black"
-            android:layout_marginTop="390dp" app:layout_constraintTop_toTopOf="parent" android:textAlignment="center"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="2dp"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.062"/>
-    <TextView
-            android:text="#"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView70"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="16dp"
-            android:layout_marginTop="339dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
-            android:layout_marginStart="8dp"/>
-    <TextView
-            android:text="4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView68"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="297dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
-            android:layout_marginStart="8dp"/>
-    <TextView
-            android:text="7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView67"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="255dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
-            android:layout_marginStart="8dp"/>
-    <TextView
-            android:text="10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView66"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="213dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
-            android:layout_marginStart="8dp"/>
-    <TextView
-            android:text="13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView65"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="171dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
-            android:layout_marginStart="8dp"/>
-    <TextView
-            android:text="17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView64"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="129dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
-            android:layout_marginStart="8dp"/>
-    <TextView
-            android:text="1.46"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView63"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="297dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.66"/>
-    <TextView
-            android:text="2.55"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView62"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="255dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.663"/>
-    <TextView
-            android:text="3.65"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView61"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="213dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.663"/>
-    <TextView
-            android:text="4.75"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView60"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="171dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.663"/>
-    <TextView
-            android:text="6.21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView59"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="129dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.662"
-            android:layout_marginStart="8dp"/>
-    <TextView
-            android:text="20%"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView58"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="297dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
-    <TextView
-            android:text="40%"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView57"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="255dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
-    <TextView
-            android:text="60%"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView56"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="213dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
-    <TextView
-            android:text="80%"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView55"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="171dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
-    <TextView
-            android:text="Sistema elegido"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView49" android:textColor="@android:color/black"
-            android:layout_marginTop="68dp" app:layout_constraintTop_toTopOf="parent" android:textAlignment="center"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="2dp"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.018"/>
-    <TextView
-            android:text="Cobertura electrica"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView50"
-            android:textColor="@android:color/black"
-            android:layout_marginTop="68dp"
-            app:layout_constraintTop_toTopOf="parent" android:textAlignment="center"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.686"/>
-    <TextView
-            android:text="Propuestas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView51"
-            android:textColor="@color/colorAccent" android:textSize="30sp" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent"/>
-    <TextView
-            android:text="Tamaño del sistema"
-            android:layout_width="75dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView52"
-            android:textColor="@android:color/black"
-            android:layout_marginTop="68dp"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.304"/>
-    <TextView
-            android:text="No. de paneles"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView53"
-            android:textColor="@android:color/black" android:textAlignment="center"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="68dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="2dp"
-            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.981"/>
-    <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="250dp"
-            android:id="@+id/radioGroup"
-            android:visibility="visible" android:layout_marginTop="120dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="100dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="15dp"
-            app:layout_constraintHorizontal_bias="0.028">
-        <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/radioButton8" android:layout_weight="1"
-                android:checked="false" android:visibility="visible" android:textColor="@android:color/black"
-                android:buttonTint="@android:color/darker_gray"/>
-        <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/radioButton6" android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:buttonTint="@android:color/darker_gray"/>
-        <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/radioButton5" android:layout_weight="1"
-                android:visibility="visible"
-                android:checked="false" android:textColor="@android:color/black"
-                android:buttonTint="@android:color/darker_gray"/>
-        <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/radioButton4" android:layout_weight="1"
-                android:visibility="visible"
-                android:checked="false" android:textColor="@android:color/black"
-                android:buttonTint="@android:color/darker_gray"/>
-        <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/radioButton3" android:layout_weight="1"
-                android:visibility="visible"
-                android:checked="false" android:textColor="@android:color/black"
-                android:buttonTint="@android:color/darker_gray"/>
-        <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/radioButton10" android:layout_weight="1"
-                android:visibility="visible"
-                android:checked="false" android:textColor="@android:color/black"
-                android:buttonTint="@android:color/darker_gray"/>
-    </RadioGroup>
-    <TextView
-            android:text="100%"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView54"
-            android:textColor="@android:color/black"
-            android:textSize="16dp"
-            android:layout_marginTop="129dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"
-            android:layout_marginStart="8dp"/>
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:text="Watts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView113" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="670dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textColor="@android:color/darker_gray"
+                    app:layout_constraintHorizontal_bias="1.0" android:textSize="10sp"/>
+            <TextView
+                    android:text="365"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:id="@+id/textView112"
+                    android:textColor="#808080" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="643dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textSize="24sp"
+                    app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="Horas promedio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView110" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="624dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textColor="@android:color/darker_gray"
+                    app:layout_constraintHorizontal_bias="1.0" android:textSize="10sp"/>
+            <TextView
+                    android:text="20%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:id="@+id/textView98"
+                    android:textColor="#808080" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="496dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textSize="24sp"
+                    app:layout_constraintHorizontal_bias="1.0"/>
+            <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="270dp"
+                    android:layout_height="33dp"
+                    android:id="@+id/progressBar2"
+                    android:layout_marginTop="546dp"
+                    app:layout_constraintTop_toTopOf="parent" android:visibility="visible" tools:visibility="visible"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:progressTint="#9b2f1b"
+                    android:progress="5"
+                    android:max="100" android:foregroundTint="@android:color/white"
+                    android:scaleY="3"
+                    android:progressBackgroundTint="@android:color/darker_gray"
+                    app:layout_constraintHorizontal_bias="0.028"/>
+            <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="270dp"
+                    android:layout_height="33dp"
+                    android:id="@+id/progressBar3"
+                    android:layout_marginTop="596dp"
+                    app:layout_constraintTop_toTopOf="parent" android:visibility="visible" tools:visibility="visible"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:progressTint="@color/colorAccent"
+                    android:progress="90"
+                    android:max="100" android:foregroundTint="@android:color/white"
+                    android:scaleY="3"
+                    android:progressBackgroundTint="@android:color/darker_gray"
+                    app:layout_constraintHorizontal_bias="0.028"/>
+            <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="270dp"
+                    android:layout_height="33dp"
+                    android:id="@+id/progressBar4"
+                    android:layout_marginTop="646dp"
+                    app:layout_constraintTop_toTopOf="parent" android:visibility="visible" tools:visibility="visible"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:progressTint="@color/colorAccent"
+                    android:progress="100"
+                    android:max="100" android:foregroundTint="@android:color/white"
+                    android:scaleY="3"
+                    android:progressBackgroundTint="@android:color/darker_gray"
+                    app:layout_constraintHorizontal_bias="0.028"/>
+            <TextView
+                    android:text="Consideraciones de diseño"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView107"
+                    android:textColor="@color/colorAccent" android:textSize="30sp" android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="400dp"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/sol"
+                    app:layout_constraintEnd_toStartOf="@+id/textView"
+                    app:layout_constraintHorizontal_bias="0.857"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="208dp" app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Intermedio"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_marginTop="238dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.184"/>
+            <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:text="$3.7"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_marginTop="268dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.915"/>
+            <TextView
+                    android:id="@+id/textView104"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:text="$0"
+                    android:textColor="@android:color/holo_orange_light"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="238dp"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.915"/>
+            <TextView
+                    android:id="@+id/textView105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Promedio de verano"
+                    android:textColor="#d82e00"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.253"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="208dp" app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:id="@+id/textView106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Excedente"
+                    android:textColor="@android:color/darker_gray"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="268dp" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHorizontal_bias="0.182"/>
+            <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/invierno"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="300dp"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.037"/>
+            <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:text="$3.7"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_marginTop="348dp"
+                    app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.915"/>
+            <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="170dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="promedio de invierno"
+                    android:textColor="#4354ff"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="300dp" app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:id="@+id/textView97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Excedente"
+                    android:textColor="@android:color/darker_gray"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="348dp"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.182"/>
+            <Button
+                    android:text="84.92KWh"
+                    android:layout_width="255dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/button9" android:background="@drawable/sombraboton"
+                    android:textColor="@color/colorPrimaryDark" android:textAlignment="center" android:textSize="30sp"
+                    android:enabled="false"
+                    android:layout_marginTop="80dp"
+                    app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"/>
+            <TextView
+                    android:text="Analisis Del Recibo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView94"
+                    android:textColor="@color/colorAccent" android:textSize="30sp" android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView93" android:textColor="@android:color/black"
+                    android:layout_marginTop="1520dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:text="$867.97 USD"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView92" android:textColor="@android:color/black"
+                    android:layout_marginTop="1490dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:text="$867.97 USD"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView91" android:textColor="@android:color/black"
+                    android:layout_marginTop="1460dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:text="$867.97 USD"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView90" android:textColor="@android:color/black"
+                    android:layout_marginTop="1430dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:text="$1,575.05 USD"/>
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView89" android:textColor="@android:color/black"
+                    android:layout_marginTop="1400dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:text="$1,575.05 USD"/>
+            <TextView
+                    android:text="Precio del sistema"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView88" android:textColor="@android:color/black"
+                    android:layout_marginTop="1360dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"/>
+            <TextView
+                    android:text="$1,008.72 MXN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView86"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1260dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="$577.21 MXN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView87"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1300dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="$1,443.03 MXN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView85"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1220dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="$1,874.54 MXN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView69"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1180dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="$2,448.95 MXN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView84"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1140dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView83"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1300dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
+            <TextView
+                    android:text="25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView82"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1260dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
+            <TextView
+                    android:text="35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView81"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1220dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
+            <TextView
+                    android:text="46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView80"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1180dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"/>
+            <TextView
+                    android:text="60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView79"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1140dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"/>
+            <TextView
+                    android:text="206"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView78"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1300dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
+            <TextView
+                    android:text="360"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView77"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1260dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
+            <TextView
+                    android:text="515"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView76"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1220dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
+            <TextView
+                    android:text="669"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView75"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1180dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
+            <TextView
+                    android:text="874"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView74"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1140dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.125"/>
+            <TextView
+                    android:text="Ahorro promedio"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView73" android:textColor="@android:color/black"
+                    android:layout_marginTop="1090dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="2dp"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.975"/>
+            <TextView
+                    android:text="area m³"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView72" android:textColor="@android:color/black"
+                    android:layout_marginTop="1090dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"/>
+            <TextView
+                    android:text="Produccion mensual"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView71" android:textColor="@android:color/black"
+                    android:layout_marginTop="1090dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="2dp"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.062"/>
+            <TextView
+                    android:text="#"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView70"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:layout_marginTop="1039dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
+                    android:layout_marginStart="8dp"/>
+            <TextView
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView68"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="997dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
+                    android:layout_marginStart="8dp"/>
+            <TextView
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView67"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="955dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
+                    android:layout_marginStart="8dp"/>
+            <TextView
+                    android:text="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView66"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="913dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
+                    android:layout_marginStart="8dp"/>
+            <TextView
+                    android:text="13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView65"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="871dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
+                    android:layout_marginStart="8dp"/>
+            <TextView
+                    android:text="17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView64"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="829dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.925"
+                    android:layout_marginStart="8dp"/>
+            <TextView
+                    android:text="1.46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView63"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="997dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.66"/>
+            <TextView
+                    android:text="2.55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView62"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="955dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.663"/>
+            <TextView
+                    android:text="3.65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView61"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="913dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.663"/>
+            <TextView
+                    android:text="4.75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView60"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="871dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.663"/>
+            <TextView
+                    android:text="6.21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView59"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="829dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.662"
+                    android:layout_marginStart="8dp"/>
+            <TextView
+                    android:text="20%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView58"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="997dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
+            <TextView
+                    android:text="40%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView57"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="955dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
+            <TextView
+                    android:text="60%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView56"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="913dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
+            <TextView
+                    android:text="80%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView55"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="871dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"/>
+            <TextView
+                    android:text="Sistema elegido"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView49" android:textColor="@android:color/black"
+                    android:layout_marginTop="768dp" app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="2dp"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.018"/>
+            <TextView
+                    android:text="Cobertura electrica"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView50"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="768dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textAlignment="center"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.686"/>
+            <TextView
+                    android:text="Propuestas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView51"
+                    android:textColor="@color/colorAccent" android:textSize="30sp" android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="708dp"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:text="Tamaño del sistema"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView52"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="768dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.304"/>
+            <TextView
+                    android:text="No. de paneles"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView53"
+                    android:textColor="@android:color/black" android:textAlignment="center"
+                    app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="768dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="2dp"
+                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.981"/>
+            <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:id="@+id/radioGroup"
+                    android:visibility="visible" android:layout_marginTop="820dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="100dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="15dp"
+                    app:layout_constraintHorizontal_bias="0.028">
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton8" android:layout_weight="1"
+                        android:checked="false" android:visibility="visible" android:textColor="@android:color/black"
+                        android:buttonTint="@android:color/darker_gray"/>
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton6" android:layout_weight="1"
+                        android:textColor="@android:color/black"
+                        android:buttonTint="@android:color/darker_gray"/>
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton5" android:layout_weight="1"
+                        android:visibility="visible"
+                        android:checked="false" android:textColor="@android:color/black"
+                        android:buttonTint="@android:color/darker_gray"/>
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton4" android:layout_weight="1"
+                        android:visibility="visible"
+                        android:checked="false" android:textColor="@android:color/black"
+                        android:buttonTint="@android:color/darker_gray"/>
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton3" android:layout_weight="1"
+                        android:visibility="visible"
+                        android:checked="false" android:textColor="@android:color/black"
+                        android:buttonTint="@android:color/darker_gray"/>
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton10" android:layout_weight="1"
+                        android:visibility="visible"
+                        android:checked="false" android:textColor="@android:color/black"
+                        android:buttonTint="@android:color/darker_gray"/>
+            </RadioGroup>
+            <TextView
+                    android:text="100%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView54"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="829dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.314"
+                    android:layout_marginStart="8dp"/>
+            <Button
+                    android:text="Promedio mensual del consumo"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:drawableLeft="@drawable/ic_flash_on_black_24dp"
+                    android:id="@+id/button11" android:background="@drawable/sombraboton2"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" android:textAllCaps="false"
+                    android:saveEnabled="false"
+                    android:enabled="false"
+                    app:layout_constraintTop_toTopOf="@+id/button9" android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"/>
+            <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="270dp"
+                    android:layout_height="33dp"
+                    android:id="@+id/progressBar"
+                    android:layout_marginTop="496dp"
+                    app:layout_constraintTop_toTopOf="parent" android:visibility="visible" tools:visibility="visible"
+                    android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:progressTint="#9b2f1b"
+                    android:progress="20"
+                    android:max="100" android:foregroundTint="@android:color/white"
+                    android:scaleY="3"
+                    android:progressBackgroundTint="@android:color/darker_gray"
+                    app:layout_constraintHorizontal_bias="0.028"/>
+            <TextView
+                    android:text="5%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:id="@+id/textView108"
+                    android:textColor="#808080" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="544dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textSize="24sp"
+                    app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="6.23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:id="@+id/textView109"
+                    android:textColor="#808080" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="593dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textSize="24sp"
+                    app:layout_constraintHorizontal_bias="1.0"/>
+            <TextView
+                    android:text="Perdidas por eficiencia,temperaturas y suciedad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView99" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="476dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textColor="@android:color/black"
+                    app:layout_constraintHorizontal_bias="0.032"/>
+            <TextView
+                    android:text="Factor de seguridad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView100" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="526dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textColor="@android:color/black"
+                    app:layout_constraintHorizontal_bias="0.018"/>
+            <TextView
+                    android:text="Recurso solar del sitio de instalacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView102" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="576dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textColor="@android:color/black"
+                    app:layout_constraintHorizontal_bias="0.032"/>
+            <TextView
+                    android:text="Capacidad de paneles a utilizar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView111" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="626dp"
+                    app:layout_constraintTop_toTopOf="parent" android:textColor="@android:color/black"
+                    app:layout_constraintHorizontal_bias="0.032"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
