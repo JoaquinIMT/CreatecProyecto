@@ -7,4 +7,315 @@
         android:layout_height="match_parent"
         tools:context=".InformacionConsumo">
 
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:id="@+id/nombre_mes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mes"
+                    android:padding="8dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:textSize="18sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content">
+
+
+                <EditText
+                        android:id="@+id/consumo_kWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10"
+                        android:drawableStart="@drawable/ic_lightning_green"
+                        android:hint="kWh"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp" android:layout_marginStart="8dp"
+                />
+                <EditText
+                        android:id="@+id/pago_kWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:hint="Pago"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintStart_toEndOf="@+id/consumo_kWh" android:layout_marginStart="80dp"
+                        android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"/>
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <TextView
+                    android:id="@+id/nombre_mes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mes"
+                    android:padding="5dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:textSize="18sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content">
+
+
+                <EditText
+                        android:id="@+id/consumo_kWh2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_lightning_green"
+                        android:hint="kWh"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp" android:layout_marginStart="8dp"
+                />
+                <EditText
+                        android:id="@+id/pago_kWh2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:hint="Pago"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintStart_toEndOf="@+id/consumo_kWh2" android:layout_marginStart="80dp"
+                        android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"/>
+
+            </android.support.constraint.ConstraintLayout>
+            <TextView
+                    android:id="@+id/nombre_mes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mes"
+                    android:padding="5dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:textSize="18sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content">
+
+
+                <EditText
+                        android:id="@+id/consumo_kWh3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_lightning_green"
+                        android:hint="kWh"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp" android:layout_marginStart="8dp"
+                />
+                <EditText
+                        android:id="@+id/pago_kWh3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:hint="Pago"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintStart_toEndOf="@+id/consumo_kWh3" android:layout_marginStart="80dp"
+                        android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"/>
+
+            </android.support.constraint.ConstraintLayout>
+            <TextView
+                    android:id="@+id/nombre_mes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mes"
+                    android:padding="5dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:textSize="18sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content">
+
+
+                <EditText
+                        android:id="@+id/consumo_kWh4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_lightning_green"
+                        android:hint="kWh"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp" android:layout_marginStart="8dp"
+                />
+                <EditText
+                        android:id="@+id/pago_kWh4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:hint="Pago"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintStart_toEndOf="@+id/consumo_kWh4" android:layout_marginStart="80dp"
+                        android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"/>
+
+
+
+            </android.support.constraint.ConstraintLayout>
+            <TextView
+                    android:id="@+id/nombre_mes5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mes"
+                    android:padding="5dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:textSize="18sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content">
+
+
+                <EditText
+                        android:id="@+id/consumo_kWh5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_lightning_green"
+                        android:hint="kWh"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp" android:layout_marginStart="8dp"
+                />
+                <EditText
+                        android:id="@+id/pago_kWh5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:hint="Pago"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintStart_toEndOf="@+id/consumo_kWh5" android:layout_marginStart="80dp"
+                        android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"/>
+
+            </android.support.constraint.ConstraintLayout>
+            <TextView
+                    android:id="@+id/nombre_mes6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mes"
+                    android:padding="5dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:textSize="18sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content">
+
+
+                <EditText
+                        android:id="@+id/consumo_kWh6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_lightning_green"
+                        android:hint="kWh"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp" android:layout_marginStart="8dp"
+                />
+                <EditText
+                        android:id="@+id/pago_kWh6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:hint="Pago"
+                        android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintStart_toEndOf="@+id/consumo_kWh6" android:layout_marginStart="80dp"
+                        android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"/>
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tipo de cambio"
+                    android:padding="5dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" android:textSize="18sp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content" android:layout_marginTop="3dp">
+                <ImageView android:layout_width="34dp" android:layout_height="34dp"
+                           android:id="@+id/monezitation1"
+                           android:src="@drawable/ic_monetization_green"
+                           app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                           app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+                           android:layout_marginStart="8dp" android:layout_marginBottom="8dp"/>
+                <EditText android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                          app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                          android:layout_marginBottom="8dp"
+                          app:layout_constraintEnd_toEndOf="parent"
+                          app:layout_constraintStart_toEndOf="@+id/monezitation1" android:layout_marginStart="8dp"
+                          android:hint="Cambio"/>
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <ImageView android:layout_width="34dp" android:layout_height="34dp"
+                           android:id="@+id/tarifa1"
+                           android:src="@drawable/ic_lightning_empty_green"
+                           app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                           app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+                           android:layout_marginStart="8dp" android:layout_marginBottom="8dp"/>
+                <EditText android:layout_width="0dp" android:layout_height="wrap_content"
+                          android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                          app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+                          android:layout_marginBottom="8dp"
+                          app:layout_constraintEnd_toEndOf="parent"
+                          app:layout_constraintStart_toEndOf="@+id/tarifa1" android:layout_marginStart="8dp"
+                          android:hint="Tarifa"/>
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
