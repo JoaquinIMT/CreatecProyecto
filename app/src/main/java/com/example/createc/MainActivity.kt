@@ -134,6 +134,8 @@ class MainActivity : AppCompatActivity() {
 
         try {
             image = FirebaseVisionImage.fromFilePath(applicationContext,image_rui!!)
+
+
         } catch (e: IOException) {
             e.printStackTrace()
         }
