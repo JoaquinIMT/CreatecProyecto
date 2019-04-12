@@ -18,10 +18,11 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity
+                android:name=".CotizacionInterna"
+                android:label="Cotización Interna">
+        </activity>
         <activity android:name=".propuestas">
-
-
-
         </activity>
         <activity android:name=".sse2">
         </activity>
@@ -30,8 +31,6 @@
                 android:label="Información de Consumo">
         </activity>
         <activity android:name=".sse">
-
-
 
         </activity>
         <activity
