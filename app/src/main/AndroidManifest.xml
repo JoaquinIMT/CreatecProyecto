@@ -16,10 +16,13 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity
+                android:name=".CotizacionInterna"
+                android:label="Cotización Interna">
+        </activity>
         <activity android:name=".propuestas">
-
         </activity>
         <activity android:name=".sse2">
         </activity>
@@ -28,7 +31,6 @@
                 android:label="Información de Consumo">
         </activity>
         <activity android:name=".sse">
-
         </activity>
         <activity
                 android:name=".ClienteDatos"

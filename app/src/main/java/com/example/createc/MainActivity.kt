@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
     var paragraphComplete: String = ""
     var nombreDeUsuario: String = ""
     var noServicioUsuario: String = ""
+    var direccion: String = ""
+    var tipoRecibo: String = ""
+    var tipoContrato: String = ""
 
     lateinit var textPro: TextView
     lateinit var scanImage: Button
@@ -209,7 +212,7 @@ class MainActivity : AppCompatActivity() {
                 //textPro.text = linesOfText[indexNoServicio+3]
             }
         }else{
-            textPro.text =""
+            textPro.text = null
             Toast.makeText(this,"No se reconoce texto",Toast.LENGTH_LONG).show()
         }
     }
@@ -222,6 +225,11 @@ class MainActivity : AppCompatActivity() {
 
             "noServicio" -> noServicioUsuario = component
 
+            "direccion" -> direccion = component
+
+            "tiRecibo" -> tipoRecibo = component
+
+            "tiContrato" -> tipoContrato = component
         }
     }
 }
