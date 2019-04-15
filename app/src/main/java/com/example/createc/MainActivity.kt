@@ -169,20 +169,36 @@ class MainActivity : AppCompatActivity() {
 
         if(result != null) {
 
-        val resultText = result.text
+            val resultText = result.text
+
+            var linesOfText = resultText.lines()
+            var linesOfTextMutable = linesOfText.toMutableList()
+            val errores = listOf("Suministrador de","CFE","CFE. Suministrador de",
+                "CFE Suministrador de","Servicios Básicos","Servicios Básicos."
+                ,"CFE Suministrador de Servicios Básicos"
+            ,"Av. Juárez, Del. Cuauhtémoc, C.P. 06600, Ciudad de México.")
+
+            for (error in errores){
+                linesOfTextMutable.remove(error)
+            }
 
 
-        val linesOfText = resultText.lines()
+            //textPro.text = linesOfText.toString()
+            textPro.text = resultText
 
-        //textPro.text = linesOfText.toString()
+            var chequeoPos = false
 
-        textPro.text = resultText
+            /*for (lines in linesOfText ) {
+                val long = lines.split(" ")
+                val index = linesOfText.indexOf(lines)
+                if (long.size < 3 && index<6){
+                    linesOfTextMutable.removeAt(index)
+                }
 
-        var chequeoPos = false
-
-            for (lines in linesOfText) {
-
-                if (lines.equals("RFC: CSS160330CP7")) {
+            }*/
+            val textprueba = linesOfTextMutable[0]+"\n\n\n"+linesOfText.toString()
+            textPro.text = textprueba
+            /*if (lines.equals("RFC: CSS160330CP7")) {
                     val index = linesOfText.indexOf(lines)
                     if (linesOfText[index + 1] == "TOTAL A PAGAR:") {
 
@@ -210,7 +226,7 @@ class MainActivity : AppCompatActivity() {
 
                 campos(linesOfText[indexNoServicio+4],type="noServicio")
                 //textPro.text = linesOfText[indexNoServicio+3]
-            }
+            }*/
         }else{
             textPro.text = null
             Toast.makeText(this,"No se reconoce texto",Toast.LENGTH_LONG).show()

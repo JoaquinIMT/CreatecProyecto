@@ -16,20 +16,98 @@
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                           android:layout_marginEnd="20dp"
                           android:layout_marginStart="20dp"
-                          android:orientation="vertical"
-            >
+                          android:layout_marginTop="20dp"
+                          android:orientation="vertical">
+
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="18sp"
-                        android:text="Tamaño del sistema solar elegido"
+                        android:text="Tamaño del sistema solar elegido" android:layout_marginTop="8dp"/>
 
-
-                />
                 <TextView
+                        android:id="@+id/tamañoSS"
                         android:text="0.73 Kwp"
+                        android:layout_marginStart="16dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/textView122" android:textSize="24sp"/>
+                        android:layout_height="wrap_content"  android:textSize="24sp"/>
+
+                <TextView
+                        android:text="Costo por watt manual"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:layout_marginTop="32dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:textSize="18sp"/>
+
+                <EditText
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/editText" android:hint="Costo"/>
+
+                <CheckBox
+                        android:layout_marginStart="8dp"
+                        android:text="Modificar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/checkBox"/>
+                <TextView
+                        android:text="Tamaño del inversor a elegir"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:layout_marginTop="32dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:textSize="18sp"/>
+
+                <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner" android:visibility="invisible"/>
+
+                <CheckBox
+                        android:layout_marginStart="8dp"
+                        android:text="Con microinversor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/microInversor"/>
+                <TextView
+                        android:text="Costo por Watt final"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView114" android:paddingTop="32dp"
+                        android:paddingStart="8dp"/>
+                <TextView
+                        android:text="1.86"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/costoPorWattFinal" android:textSize="24sp"
+                        android:drawableStart="@drawable/ic_money_gray"
+                        android:layout_marginStart="8dp"/>
+                <TextView
+                        android:text="Incremento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView116" android:paddingTop="32dp"
+                        android:paddingStart="8dp"/>
+                <TextView
+                        android:text="0.00"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/incremento" android:textSize="24sp"
+                        android:drawableStart="@drawable/ic_money_green"
+                        android:layout_marginStart="8dp"/>
+
+                <TextView
+                        android:text="Relación Inversor / sistema"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView115" android:paddingTop="32dp"
+                        android:paddingStart="8dp"/>
+                <TextView
+                        android:text="111%"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Incremento" android:textSize="24sp"
+                        android:layout_marginStart="8dp" android:paddingStart="8dp" android:paddingTop="2dp"/>
+
+
 
             </LinearLayout>
             <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
